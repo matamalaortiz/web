@@ -39,7 +39,7 @@ class Project extends Component {
 
   onClick = () => {
     this.setState({ thisIMG: 1})
-    console.log('closing');
+    // console.log('closing');
 
     this.props.closeProject()
     // this.props.resetImg()
@@ -169,9 +169,12 @@ class Project extends Component {
         <div className="Project--Description Bold" ref={ref => { this.Description = ref }} onClick={()=> this.showMoreProject(this.props.showMoreProject)} >
           {this.props.showMoreProject ? 
               <div> 
-                <span style={{float:'left', paddingLeft: '3em', fontSize: '1em', paddingTop: '0.3em' }} className='Desktop'>{p.name} </span>
+                <span style={{float:'left', paddingLeft: '3em', fontSize: '1em', paddingTop: '0.3em', textAlign: 'left' }} className='Desktop'>{p.name}<br/> <a href={p.link} style={{marginTop:'1em', position: 'absolute',  fontSize: '0.7em'}}>{p.link}</a> </span>
+ 
               <div style={{ fontSize: '3em', fontWeight: '400', textAlign: 'left'}} >
-                <p style={{width: '50%', textAlign: 'left', marginLeft: '6em'}} className='whenMedium'>{descriptionShort}</p>
+                <p style={{width: '50%', textAlign: 'left'}} className='whenMedium'>{descriptionShort}
+                  <span className='DesktopInfo'>{p.name}<br/> <a href={p.link}>{p.link}</a> </span>
+                </p>
                 <span style={{ position: 'absolute', top: '0.8em', right: '3em', fontSize: '0.5em', fontWeight: '600'}} className='Desktop'> 
                 <span style={{color: '#a59d9d', fontSize: '0.8em' }}>Img: </span> 
                 {this.state.thisIMG} /{p.imgs.length}</span>

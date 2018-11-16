@@ -1,4 +1,4 @@
-import Initial_Thumb from '../images/thumbs/news.jpg'
+import Initial_Thumb from '../images/thumbs/news.png'
 import Header_Thumb from '../images/thumbs/runway.png'
 import * as Runway from './imgs/runway'
 import * as UL from './imgs/ul'
@@ -18,8 +18,8 @@ import * as Relations from './imgs/relations'
 export const PROJECTS = [
 	{
 		name: 'Runway ML',
-		description: "Runway is platform that uses machine learning models to empower creators and developers with a simple visual interface. ", 
-		short_description: 'AI/ML Tool',
+		description: "Runway ML is desktop application to integrate machine learning models capabilities into exiting creative tools and workflows.", 
+		short_description: 'AI/ML Tool.',
 		year: 'Now.',
 		data: "AI/ML Tools",
 		link: "https://runwayapp.ai",
@@ -29,11 +29,10 @@ export const PROJECTS = [
 	},
 	{
 		name: 'Unsecured Landscapes',
-		description: 'Unsecure Landscapes is an exercise of juxtaposing moving images from nature places that are being surveilled by IP Cameras. The footage is scraped by a bot every 12 hours from cameras found at insecam.com ', 
-		short_description: 'Project',
-		link: "https://vimeo.com/258524080",
+		description: 'Unsecure Landscapes is an exercise of juxtaposing moving images from natural landscapes that are being surveilled by IP Cameras. The footage is scraped by a bot every 12 hours from cameras found at insecam.com ', 
+		short_description: 'Web.',
 		outsideText: "Watch Video",
-		data: "Experimental, WebScrapping",
+		data: "Experimental.",
 		year: '2018',
 		video: true,
 		thumb: UL.Thumb,
@@ -41,8 +40,8 @@ export const PROJECTS = [
 	},
 	{
 		name: 'Archetype',
-		description: 'Archetype is a set of three standalone desktop applications to create, follow, sync and archive websites under the P2P DAT protocol. Created as a thesis research at ITP, NYU. ', 
-		short_description: 'Tools',
+		description: 'Archetype is a set of three standalone desktop applications to create, follow, sync and archive websites under the P2P DAT protocol. Created as a thesis research at ITP, NYU.', 
+		short_description: 'P2P Tool.',
 		year: '2018',
 		data: "Prototype, Application.",
 		thumb: Archetype.Thumb,
@@ -69,25 +68,25 @@ export const PROJECTS = [
 		short_description: 'Prototype.',
 		data: "Prototype",
 		year: '2017',
+		video: true,
 		thumb: Microsoft.Thumb,
 		imgs: Microsoft.Imgs
 	},
 	{
 		name: 'RTCMV',
-		description: "Interactive performance controlled by two mobile applications to output a real time music and visual experience through out the audience's laptop – screens and speakers –. Around 65 devices were used during this performance at NYU.", 
+		description: "Interactive performance controlled by two mobile applications to output a real time music and visual experience through out the audience's laptops – screens and speakers –. Around 65 devices were used during this performance at NYU.", 
 		short_description: 'Performance, Experiment.',
 		data: "Performance, Experiment.",
 		year: '2016',
 		thumb: Music.Thumb,
 		imgs: Music.Imgs,
-		link: "https://vimeo.com/258524080",
 		outsideText: "Watch Video",
 		video: true
 	},
 	{
 		name: 'One Random Line',
 		description: "A small twitter bot created with nodejs and processing that draw and tweet one random line – @onerandomline – with a constant height in the second point (y2) every so often from my personal computer.", 
-		short_description: 'Bot',
+		short_description: 'Bot.',
 		year: '2016',
 		data: "Experiment.",
 		thumb: Onerandom.Thumb,
@@ -112,7 +111,6 @@ export const PROJECTS = [
 		year: '2016',
 		thumb: Composite.Thumb,
 		imgs: Composite.Imgs,
-		link: "https://vimeo.com/200270986",
 		outsideText: "Watch Video", 
 		video: true
 	},
@@ -144,7 +142,6 @@ export const PROJECTS = [
 		short_description: 'Printed.',
 		data: "Printed.",
 		year: '2015',
-		link: "http://projectomultiplo.blogspot.com/",
 		outsideText: "Visit Project",
 		thumb: Relations.Thumb,
 		imgs: Relations.Imgs
@@ -160,9 +157,10 @@ export const PROJECTS = [
 	},
 	{
 		name: 'Ediciones Daga',
-		description: 'A small independent art book publishing group focused in the printing and archival material of visual artists from South-America.', 
+		description: 'A small independent art book publishing house focused in the printing and archival material of visual artists from South-America.', 
 		short_description: 'Publishing.',
 		data: "Publishing",
+		link: 'http://www.edicionesdaga.com',
 		year: '2010',
 		thumb: Daga.Thumb,
 		imgs: Daga.Imgs
@@ -173,8 +171,8 @@ export const PROJECTS = [
 
 export const INITIAL = [
 	{
-		name: 'Mountain',
-		description: 'View of mountain in Califorina, 2018.', 
+		name: 'Proccess',
+		description: 'Unsecured Landscape Sketches', 
 		thumb: Initial_Thumb
 	}
 ];
