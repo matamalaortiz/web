@@ -182,7 +182,7 @@ class Project extends Component {
               </div>
             : 
             <div>
-              <p> <span style={{float:'left', paddingLeft: '3em', }} className='Desktop'>{p.name}</span><span style={{width:'50%', textAlign: 'left',  marginLeft: '0em'}}  className='whenMediumClose' >{descriptionShort.substring(0,50)}... <span style={{color: '#a59d9d'}}>(read more)</span></span> <span style={{float: 'right', paddingRight: '4.5em'}} className='Desktop'> <span style={{color: '#a59d9d', fontSize: '0.8em' }} >Img:</span> {this.state.thisIMG} /{p.imgs.length}</span> </p>
+              <p> <span style={{float:'left', paddingLeft: '3em', }} className='Desktop'>{p.name}</span><span style={{width:'50%', textAlign: 'left',  marginLeft: '0em'}}  className='whenMediumClose' >{descriptionShort.substring(0,50)}... <span style={{color: '#a59d9d'}}>(read more)</span></span> <span style={{float: 'right', paddingRight: '4.5em', width:'4.5em'}} className='Desktop'> <span style={{color: '#a59d9d', fontSize: '0.8em' }} >Img:</span> {this.state.thisIMG} /{p.imgs.length}</span> </p>
             </div>
           }
         </div>

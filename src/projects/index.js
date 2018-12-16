@@ -18,7 +18,7 @@ import * as Relations from './imgs/relations'
 export const PROJECTS = [
 	{
 		name: 'Runway ML',
-		description: "Runway ML is desktop application to integrate machine learning models capabilities into exiting creative tools and workflows.", 
+		description: "Runway ML is desktop application to integrate machine learning models capabilities into exiting creative tools and workflows. Beta coming soon.", 
 		short_description: 'AI/ML Tool.',
 		year: 'Now.',
 		data: "AI/ML Tools",
@@ -181,7 +181,7 @@ export const HEADER = [
 	{
 		name: 'Runway',
 		link: 'https://runwayapp.ai', 
-		data: 'Machine Learning for Everyone. Fall 2018.',
+		data: 'Machine Learning for Everyone.',
 		text: 'Runwayml',
 		thumb: Header_Thumb
 	}
