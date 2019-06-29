@@ -46,9 +46,8 @@ updateThumb = (img, desc) => {
 					</p>
 				</div>
 				<p>Developer. Designer.</p> 
-				<p>Currently Research Resident at ITP, NYU.</p>
 				<p 
-				>& Building @  
+				>Currently building @  
 					<a href={HEADER[0].link} 
 					target="_blank" 
 					className="CO--Highlight" 				
@@ -56,8 +55,11 @@ updateThumb = (img, desc) => {
 					onMouseLeave={()=> this.updateThumb(false, false)}
 					>
 					  {HEADER[0].text}.
-					</a></p>
-				<p>More about me below.</p>
+					</a>
+					</p>
+					<p>Prev. Research Resident at ITP, NYU.</p>
+
+				<p></p>
 			</div>
 			<div className="CO--Project" id="CO-Work">
 				<WorkAnimation />

@@ -18,18 +18,18 @@ import * as Relations from './imgs/relations'
 export const PROJECTS = [
 	{
 		name: 'Runway ML',
-		description: "Runway ML is desktop application to integrate machine learning models capabilities into exiting creative tools and workflows. Beta coming soon.", 
+		description: "Runway ML. A machine learning tool for creators.", 
 		short_description: 'AI/ML Tool.',
 		year: 'Now.',
 		data: "AI/ML Tools",
-		link: "https://runwayapp.ai",
-		outsideText: "www.runwayapp.ai",
+		link: "https://runwayml.com",
+		outsideText: "www.runwayml.com",
 		thumb: Runway.Thumb,
 		imgs: Runway.Imgs 
 	},
 	{
 		name: 'Unsecured Landscapes',
-		description: 'Unsecure Landscapes is an exercise of juxtaposing moving images from natural landscapes that are being surveilled by IP Cameras. The footage is scraped by a bot every 12 hours from cameras found at insecam.com ', 
+		description: 'Unsecure Landscapes is an exercise of juxtaposing moving images from natural landscapes found through open IP Cameras at insecam.com', 
 		short_description: 'Web.',
 		outsideText: "Watch Video",
 		data: "Experimental.",
@@ -180,9 +180,9 @@ export const INITIAL = [
 export const HEADER = [
 	{
 		name: 'Runway',
-		link: 'https://runwayapp.ai', 
-		data: 'Machine Learning for Everyone.',
-		text: 'Runwayml',
+		link: 'https://runwayml.com', 
+		data: 'Machine Learning for Creators',
+		text: 'RunwayML',
 		thumb: Header_Thumb
 	}
 ];

@@ -1,5 +1,5 @@
-import runway from './runway/runway.png'
-import runway2 from './runway/runway2.png'
+import runway from './runway/runway1.jpg'
+import runway2 from './runway/runway.jpg'
 
 
 export const Imgs = [runway, runway2]

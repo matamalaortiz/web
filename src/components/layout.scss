@@ -93,6 +93,9 @@ a{
     }
 }
 
+p {
+    line-height: 1.4em;
+}
 /* Game */
 
 #CursorLayer{
@@ -397,10 +400,15 @@ a{
         }
 
         .CO--About-Text{
-            font-size: 1em;
+            font-size: .8em;
             line-height: 1.6em;
-            width: 55vw;
+            width: 45vw;
             clear: both;
+
+            &:last-child{
+                margin-bottom: 10px;
+
+            }
             // font-family: 'Times New Roman', Times, serif;
 
             @media screen and (max-width: $break-medium){
@@ -728,6 +736,8 @@ a{
         margin: 0 auto;
         // overflow-y: scroll;
         margin-bottom: 8em;
+        line-height: 1.2em !important;
+
     }
 
     a{
@@ -788,6 +798,7 @@ em {
         margin-bottom: 10em !important;
         // margin: 0 auto;
         text-align: center;
+        line-height: 1em !important;
         // margin-left: 1em !important;
 
     }
@@ -804,23 +815,23 @@ em {
 
 .whenMediumClose{
     @media screen and (max-width: $break-mobile){
-        font-size: 0.6em !important;
+        font-size: 0.8em !important;
         width: 50%!important;
     }
     @media screen and (max-width: $break-medium){
-        font-size: 0.6em !important;
+        font-size: 0.8em !important;
         width: 50%!important;
         // margin-bottom: 10em !important;
     }
 }
 
 input, textarea, select, a , img { outline: none; }
-*{
-    -webkit-user-select: none; /* Safari 3.1+ */
-    -moz-user-select: none; /* Firefox 2+ */
-    -ms-user-select: none; /* IE 10+ */
-    user-select: none; /* Standard syntax */
-}
+// *{
+//     -webkit-user-select: none; /* Safari 3.1+ */
+//     -moz-user-select: none; /* Firefox 2+ */
+//     -ms-user-select: none; /* IE 10+ */
+//     user-select: none; /* Standard syntax */
+// }
 
 
 @keyframes move-in {
